@@ -8,7 +8,7 @@ gulp
 
 E abra http://localhost:3000
 
-(appcache e cache do SW desabilitados)
+(appcache e cache do SW desabilitados) -- Necessario procurar versao mais atual!
 
 ### Deploy
 
@@ -16,4 +16,4 @@ E abra http://localhost:3000
 gulp clean && gulp build && gulp service-worker && gulp manifest && gulp ghpages
 ```
 
-Abra: https://sergiolopes.github.io/shopping/
+Abra: https://mauriliofilho.github.io/shopping/

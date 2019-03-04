@@ -6,7 +6,7 @@
     "browser-sync": "latest",
     "del": "latest",
     "glob": "latest",
-    "gulp": "latest",
+    "gulp": "^4.0.0",
     "gulp-appcache": "latest",
     "gulp-autoprefixer": "latest",
     "gulp-concat": "latest",
@@ -25,6 +25,7 @@
     "gulp-sequence": "latest",
     "gulp-uncss": "latest",
     "gulp-util": "latest",
+    "jshint": "^2.10.1",
     "jshint-stylish": "latest",
     "slug": "latest",
     "sw-precache": "latest"

@@ -78,11 +78,7 @@ gulp.task('filelist', function() {
     .pipe(gulp.dest('dist'));
 });
 
-gulp.task('service-worker', ['filelist'], function() {
-  return gulp.src(['dist/files.json', 'src/service-worker.js'])
-      .pipe($.concat('service-worker.js'))
-      .pipe(gulp.dest('dist'));
-});
+
 
 gulp.task('dev-service-worker', function(callback) {
   return gulp.src(['src/service-worker.js'])
